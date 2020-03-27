@@ -1,0 +1,27 @@
+name: Todays quiz is about Tea (test question)
+question:
+- multipleChoice:
+    answers:
+    - Yorkshire Tea
+    - PG Tips
+    - Typhoo
+    question: Who makes the best "English Breakfast" tea?
+  timeToReveal: 5000000000
+  type: quizMulti
+- multipleChoice:
+    answers:
+    - Installs a cluster on bare-metal
+    - Installs a cluster in a SaaS
+    - Makes tea
+    - Bootstraps a cluster
+    question: Kubeadm does?
+  timeToReveal: 5000000000
+  type: quizMulti
+- timeToReveal: 5000000000
+  type: quizYesNo
+  yesNoChoice:
+    answers:
+    - "Yes"
+    - "No"
+    answer: "Yes"
+    question: Is "English Breakfast" tea the best?
